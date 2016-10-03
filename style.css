@@ -1,0 +1,39 @@
+/*
+Theme Name: Clean Up Store
+Theme URI: http://woothemes.com/storefront
+Author: IMGDigital
+Author URI: http://www.imgdigital.com.ar/cleanup
+Template: storefront
+Description: Child Theme para Uniformes del Sur de StoreFront
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: imgd
+*/
+
+.site-header {
+    padding-top: .9em;
+}
+.beta, h2{
+  font-size: 1.8em;
+}
+.site-branding .site-description{
+  font-size: .85em;
+}
+.single-product div.product .price {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+li > del,
+.price del {
+  display: none;
+}
+.wcpb-bundled-product-title h1 {
+  font-size: 24px;
+}
+
+.related .site-main ul.products li.product{
+   width: 15%;
+}
